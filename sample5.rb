@@ -9,3 +9,8 @@ border = "--------"
 exam["subject"] = "science"
   puts exam
   puts exam["subject"]
+  puts border
+
+exam["teacher"] = "tanaka"
+  puts exam
+  puts exam["teacher"]
