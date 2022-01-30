@@ -4,6 +4,7 @@ border = "--------"
   puts border
   puts exam["subject"]
   puts exam["score"]
+  puts border
 
 exam["subject"] = "science"
   puts exam
