@@ -6,3 +6,16 @@ exams = [
 exams.each do |exam|
   puts "#{exam[:subject]}の結果は#{exam[:score]}点です"
 end
+
+
+characters = [
+  {name: "にんじゃわんこ", age: 14},
+  {name: "ひつじ仙人"},
+  {name: "ベイビーわんこ", age: 5},
+  {name: "とりずきん"}
+]
+
+characters.each do |character|
+  puts "---------------------"
+  puts "名前は#{character[:name]}です"
+end
