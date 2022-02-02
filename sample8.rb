@@ -3,4 +3,8 @@ exams = [
   {subject: "Science", score: 55}
 ]
 
+border = "--------"
+
 puts exams[1]
+puts border
+puts exams[1][:score]
