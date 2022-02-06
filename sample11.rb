@@ -1,6 +1,7 @@
-def print_info
+def print_info(name)
   puts "わんこでんきへようこそ！"
   puts "今日はヘッドホンがセール中です！"
+  puts "こんにちは私は#{name}です"
 end
 
-print_info
+print_info("ねこ")
