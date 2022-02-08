@@ -3,4 +3,4 @@ def introduce(name,age)
   puts "年齢は、#{age}歳です"
 end
 
-introduce("ベル",17)
+introduce("ベル",14)
